@@ -1,0 +1,14 @@
+repositories {
+//    ivy {
+//        url "http://bspk.rs/MC"
+//        patternLayout {
+//            //artifact "[module]/deobf/%5B${minecraftVersion}%5D[module]-deobf-[revision].[ext]"
+//            artifact "[module]/deobf/[${minecraftVersion}][module]-deobf-[revision].[ext]"
+//        }
+//        metadataSources {
+//            ivyDescriptor()
+//            artifact()
+//        }
+//    }
+    mavenLocal()
+}

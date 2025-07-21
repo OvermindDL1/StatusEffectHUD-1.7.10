@@ -1,21 +1,21 @@
 {
-  "modListVersion": 2,
-  "modList": [{
-    "modid": "StatusEffectHUD",
-    "name": "StatusEffectHUD",
-    "description": "Shows active player effects (potions, etc) without opening your inventory!",
-    "version": "${mod_version}",
-    "mcversion": "${minecraft_version}",
-    "url": "http://www.minecraftforum.net/topic/1114612-/",
-    "updateUrl": "",
-    "authorList": [ "bspkrs" ],
-    "credits": "",
-    "logoFile": "",
-    "screenshots": [  ],
-    "parent": "",
-    "requiredMods": [ "bspkrsCore@[${bscore_version},)" ],
-    "dependencies": [ "bspkrsCore@[${bscore_version},)" ],
-    "dependants": [  ],
-    "useDependencyInformation": "true"
-  }]
+	"modListVersion": 2,
+	"modList": [{
+		"modid": "${modId}",
+		"name": "${modName}",
+		"description": "Shows active player effects (potions, etc) without opening your inventory!",
+		"version": "${modVersion}",
+		"mcversion": "${minecraftVersion}",
+		"url": "http://www.minecraftforum.net/topic/1114612-/",
+		"updateUrl": "",
+		"authorList": ["bspkrs"],
+		"credits": "",
+		"logoFile": "",
+		"screenshots": [],
+		"parent": "",
+		"requiredMods": [],
+		"dependencies": ["bspkrsCore@[5.0,)"],
+		"dependants": ["bspkrsCore@[5.0,)"],
+		"useDependencyInformation": true
+	}]
 }
